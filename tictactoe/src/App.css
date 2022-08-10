@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Finger+Paint&display=swap');
+
+.App {
+  text-align: center;
+}
+.App-header {
+  background-color: #f3b18c;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.group{
+  width: 350px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.rectangle {
+  width: 80px;
+  height: 80px;
+  background-color: #fff;
+  border: 10px solid #000000;
+  border-inline: 10px solid #000000;
+  border-radius: 20px;
+  color: #ff0505;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5px;
+  cursor: pointer;
+
+  font-family: 'Finger Paint';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 94px;
+}
+.rectangle:hover{
+  background-color: #8C8C8C;
+}
+
+
+.text {
+  font-family: 'Finger Paint';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 44px;
+  line-height: 65px;
+  /* identical to box height */
+
+  color: #0026ed;
+}
+
+.text-x {  
+  color: #FF0505;
+}
+.text-x:hover{
+  color: #fff;
+  background-color: #FF0505;
+}
+.text-o {
+  color: #0026ED;
+}
+.text-o:hover{
+  color: #fff;
+  background-color: #0026ED;
+}
