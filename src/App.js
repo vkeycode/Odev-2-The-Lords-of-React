@@ -1,10 +1,10 @@
 import "./App.css";
-import Boxes from "./Components/Boxes";
+import Gameboxes from "./Components/Gameboxes";
 
 function App() {
   return (
     <>
-      <Boxes />
+      <Gameboxes />
     </>
   );
 }

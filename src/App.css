@@ -19,7 +19,8 @@
   flex-wrap: wrap;
   flex-direction: row;
 }
-.rectangle {
+
+.squares {
   width: 80px;
   height: 80px;
   background-color: #fff;
@@ -32,18 +33,24 @@
   justify-content: center;
   margin: 5px;
   cursor: pointer;
-
   font-family: 'Finger Paint';
   font-style: normal;
   font-weight: 400;
   font-size: 64px;
   line-height: 94px;
 }
-.rectangle:hover{
+.squares::selection{
+  background: transparent;
+}
+.squares:hover{
   background-color: #8C8C8C;
 }
-
-
+h3{
+  color: #000000;
+}
+span{
+  color: black;
+}
 .text {
   font-family: 'Finger Paint';
   font-style: normal;
@@ -51,12 +58,12 @@
   font-size: 44px;
   line-height: 65px;
   /* identical to box height */
-
   color: #0026ed;
 }
 
 .text-x {  
   color: #FF0505;
+  font-family: 'Finger Paint';
 }
 .text-x:hover{
   color: #fff;
@@ -64,8 +71,23 @@
 }
 .text-o {
   color: #0026ED;
+  font-family: 'Finger Paint';
 }
 .text-o:hover{
   color: #fff;
   background-color: #0026ED;
 }
+
+.winner-box-red {
+  border: 10px solid #ff0505;
+  border-radius: 10px;
+  border-radius: 20px;
+  color: #ff0505;
+}
+.winner-box-blue {
+  border: 10px solid #0026ED;
+  border-radius: 10px;
+  border-radius: 20px;
+  color: #0026ED;
+}
+
