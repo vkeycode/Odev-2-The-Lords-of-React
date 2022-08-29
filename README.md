@@ -2,6 +2,10 @@
 
 # Task-2 - XOX -
 
+# Live
+
+[Live-Link](https://lordtictactoe.netlify.app)
+
 ## Team Members
 - [Ahmet Salih Karagöz](https://github.com/krgzsalih)
 - [Vedat Eroğlu](https://github.com/vkeycode)
