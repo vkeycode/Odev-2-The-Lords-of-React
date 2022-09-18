@@ -90,4 +90,13 @@ span{
   border-radius: 20px;
   color: #0026ED;
 }
-
+.restart{
+  color: rgb(0, 138, 51);
+  border: 2px solid;
+  border-radius: 10px;
+}
+.restart:hover{
+  cursor: pointer;
+  background-color: rgb(0, 138, 51);
+  color: #f3b18c;
+}
