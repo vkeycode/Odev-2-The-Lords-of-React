@@ -111,7 +111,7 @@ function Gameboxes() {
           })}
         </div>
         <div>
-          {isDraw === 9 && end === false ? <h5>No Winner Please Restart<h3 className="restart" onClick={restart}>Restart</h3></h5> : ""}
+          {isDraw === 9 && end === false ? <h5 className="noWin">No Winner Please Restart<h3 className="restart" onClick={restart}>Restart</h3></h5> : ""}
           {end === true && <h3 className="restart" onClick={restart}>Restart</h3>}
           <h3>Score</h3>
           <span className="text-x">X: </span>
