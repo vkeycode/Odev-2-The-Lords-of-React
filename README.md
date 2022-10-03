@@ -6,7 +6,7 @@
 
 [Live-Link](https://lordtictactoe.netlify.app)
 
-## Team Members
+## Contributors
 - [Ahmet Salih Karagöz](https://github.com/krgzsalih)
 - [Vedat Eroğlu](https://github.com/vkeycode)
 - [Nurhak Keskin](https://github.com/sharp3614)
